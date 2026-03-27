@@ -3,6 +3,7 @@ services:
     name: nemesis-merchant
     buildCommand: npm install && npm run build
     staticPublishPath: dist
+    rootDir: app
     routes:
       - type: rewrite
         source: /*
